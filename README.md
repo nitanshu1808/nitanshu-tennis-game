@@ -18,13 +18,13 @@
 
 4. Increment/Decrement the score depending upon the condition(deuce, advantage etc).
 
-** Deuce = scores are equal for both the players
-** Advantage = If deuce and one player has an extra point.
+  . Deuce = scores are equal for both the players
+  . Advantage = If deuce and one player has an extra point.
 
-5. End the game if result has been declared 
+5. End the game if result has been declared
 
 ## Testing
-In order to run the test. 
+In order to run the test.
 
 rspec spec/tennis_spec.rb
 
