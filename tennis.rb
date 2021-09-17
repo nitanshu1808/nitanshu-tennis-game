@@ -7,7 +7,7 @@ class Tennis < BaseService
 
   attr_accessor :score
 
-  def initialize(score={ player_one: 0, player_two: 0 })
+  def initialize(score = { player_one: 0, player_two: 0 })
     @score = score
   end
 
