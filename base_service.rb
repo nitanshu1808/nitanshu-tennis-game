@@ -1,5 +1,5 @@
 class BaseService
-  def self.call(*args)
-    new(*args).tap(&:call)
+  def self.start(*args)
+    new(*args).tap(&:start)
   end
 end
